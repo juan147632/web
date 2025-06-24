@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #181818;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.music-container {
+    width: 400px;
+    margin: 60px auto;
+    background: #222;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 25px rgba(0,0,0,0.4);
+    text-align: center;
+}
+ul#song-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+}
+ul#song-list li {
+    padding: 12px;
+    margin: 5px 0;
+    background: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+ul#song-list li:hover {
+    background: #444;
+}

@@ -1,7 +1,7 @@
-function playSong(songPath) {
-    const audioPlayer = document.getElementById('audio-player');
-    const sourceMp3 = document.getElementById('source-mp3');
-    sourceMp3.src = songPath;
-    audioPlayer.load();
-    audioPlayer.play();
+function playYouTube(videoId) {
+    const player = document.getElementById('youtube-player');
+    player.innerHTML = `
+        <iframe width="100%" height="250" src="https://www.youtube.com/embed/${videoId}?autoplay=1"
+        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    `;
 }
